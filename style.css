@@ -20,7 +20,7 @@ body {
     margin: 9rem 0 12rem 0;
 }
 
-.header1{
+.header1 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -28,7 +28,7 @@ body {
     height: 240px;
 }
 
-.header3{
+.header3 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -39,7 +39,7 @@ body {
     font-size: 30px;
 }
 
-.gap{
+.gap {
     margin: 30px 0;
 }
 
@@ -53,7 +53,7 @@ body {
     border: none;
 }
 
-.Back-btn{
+.Back-btn {
     width: 150px;
     height: 60px;
     background-color: #618099;
@@ -63,7 +63,7 @@ body {
     border-radius: 15px;
 }
 
-.back-btn-box{
+.back-btn-box {
     margin: 0 0 66px 66px;
 }
 
@@ -71,7 +71,7 @@ body {
     background-color: #E7E7E7;
 }
 
-.push-down{
+.push-down {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -88,7 +88,7 @@ body {
     align-items: center;
 }
 
-.madlib-container{
+.madlib-container {
     max-width: 70%;
 }
 
@@ -107,7 +107,7 @@ body {
     margin: 0 auto;
     max-width: 50%;
     padding: 10px;
-    box-sizing: border-box; 
+    box-sizing: border-box;
 }
 
 .madlib-text {
@@ -115,7 +115,7 @@ body {
     margin: 10px 0;
 }
 
-input{
+input {
     width: 300px;
     height: 45px;
     background-color: white;
@@ -137,6 +137,20 @@ footer {
     flex-wrap: wrap;
 }
 
+.footer-madlib {
+    position: static;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    background-color: #0B0D14;
+    color: #618099;
+    z-index: -1;
+    flex-wrap: wrap;
+}
+
 .invisible-btn {
     color: transparent;
     border: none;
@@ -144,10 +158,10 @@ footer {
     cursor: default;
 }
 
-
 @media (max-width: 767px) {
     body {
-        overflow-x: hidden; /* Prevent horizontal overflow */
+        overflow-x: hidden;
+        /* Prevent horizontal overflow */
     }
 
     .header {

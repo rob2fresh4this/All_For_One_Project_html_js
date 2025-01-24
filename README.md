@@ -60,6 +60,6 @@ Each page should correspond to one of the mini API endpoints, showcasing the uni
 #### Exercise or Lab Name  
 [All For One - Build]
 
-# Review by: 
-### Overall Feedback:
+# Review by: Aaron Robinson
+### Overall Feedback: The page works as intended and meets the requirements of the assignment. Although, I would try and add data valdiation for the time on the asking questions page. Maybe number vaidation and checking is the number is a valid hour time(1-12). Same for ReverseIt(alhpabetic). I like that your .js files are concise and neat. Other than those nitpicks, good job
 > 
